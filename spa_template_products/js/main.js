@@ -116,6 +116,11 @@ function addNewProduct() {
   products.push(NewProduct);
   console.log(products);
   appendProducts(products);
+  document.querySelector("#model").value = "";
+  document.querySelector("#brand").value = "";
+  document.querySelector("#price").value = "";
+  document.querySelector("#img").value = "";
+  showPage("products");
 }
 
 function search(value) {
@@ -124,8 +129,9 @@ function search(value) {
 let filteredProducts = [];
   for (let product of products) {
     let model = product.model.toLowerCase();
+    let brand = product.brand.toLowerCase();
 
-    if(model.includes(searchQuery)){
+    if(model.includes(searchQuery) || brand.includes(searchQuery)){
       filteredProducts.push(product);
     }
   }
