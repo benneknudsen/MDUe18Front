@@ -126,12 +126,12 @@ function addNewProduct() {
 function search(value) {
   console.log(value);
   let searchQuery = value.toLowerCase();
-let filteredProducts = [];
+  let filteredProducts = [];
   for (let product of products) {
     let model = product.model.toLowerCase();
     let brand = product.brand.toLowerCase();
 
-    if(model.includes(searchQuery) || brand.includes(searchQuery)){
+    if (model.includes(searchQuery) || brand.includes(searchQuery)) {
       filteredProducts.push(product);
     }
   }

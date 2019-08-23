@@ -1,0 +1,22 @@
+[{
+  "person": "Jacob Knudsen",
+  "age": 50,
+  "haircolor": "blond",
+  "relation": "dad"
+}, {
+  "person": "Christina Knudsen",
+  "age": 47,
+  "haircolor": "black",
+  "relation": "mom"
+}, {
+  "person": "Lærke Knudsen",
+  "age": 16,
+  "haircolor": "brown",
+  "relation": "sister"
+}, {
+  "person": "Knud",
+  "age": 3,
+  "haircolor": "brown",
+  "relation": "dog"
+}
+]
