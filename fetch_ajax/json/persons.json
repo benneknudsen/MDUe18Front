@@ -1,0 +1,25 @@
+[{
+    "name": "Jacob",
+    "mail": "jsk@hotmail.com",
+    "age": 50,
+    "haircolor": "blond",
+    "relation": "dad"
+  }, {
+    "name": "Christina",
+    "mail": "csk@hotmail.com",
+    "age": 47,
+    "haircolor": "brown",
+    "relation": "mom"
+  }, {
+    "name": "Lærke",
+    "mail": "lærkemaria@hotmail.com",
+    "age": 16,
+    "haircolor": "brown",
+    "relation": "sister"
+  },{
+    "name": "Knud",
+    "mail": "error404@error404.com",
+    "age": 3,
+    "haircolor": "brown",
+    "relation": "dog"
+  }]
